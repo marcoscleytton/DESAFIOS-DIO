@@ -1,0 +1,19 @@
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    # Método para retornar as informações formatadas
+    def retornar_informacoes(self):
+        return f"Nome: {self.nome}, Idade: {self.idade}"
+
+# Entrada do usuário
+nome = input()
+idade = int(input())
+
+# Crie uma instância da pessoa
+pessoa = Pessoa(nome, idade)
+
+# Chame o método para retornar as informações formatadas e imprima o resultado
+resultado = pessoa.retornar_informacoes()
+print(resultado)
