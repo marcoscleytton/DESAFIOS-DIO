@@ -1,0 +1,34 @@
+{
+    "Music": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "2Pac"},
+                  "SongTitle": {"S": "Changes"},
+                  "AlbumTitle": {"S": "Greatest Hits"},
+                  "SongYear": {"S": "1998"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "2Pac"},
+                  "SongTitle": {"S": "California Love"},
+                  "AlbumTitle": {"S": "All Eyez on Me"},
+                  "SongYear": {"S": "1996"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "2Pac"},
+                  "SongTitle": {"S": "Hail Mary"},
+                  "AlbumTitle": {"S": "The Don Killuminati: The 7 Day Theory"},
+                  "SongYear": {"S": "1996"}
+                }
+            }
+        }
+      ]
+}

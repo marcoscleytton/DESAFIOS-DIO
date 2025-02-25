@@ -1,0 +1,6 @@
+{
+    "Artist": {"S": "2Pac"},
+    "SongTitle": {"S": "Ghetto Gospel"},
+    "AlbumTitle": {"S": "Loyal to the Game"},
+    "SongYear": {"S": "2004"}
+}
