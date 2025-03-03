@@ -1,0 +1,41 @@
+// Definição da classe Heroi
+class Heroi {
+  // Construtor que recebe nome, idade e tipo
+  constructor(nome, idade, tipo) {
+    this.nome = nome; // Nome do herói
+    this.idade = idade; // Idade do herói
+    this.tipo = tipo; // Tipo do herói (guerreiro, mago, monge, ninja)
+  }
+
+  // Método para realizar o ataque
+  atacar() {
+    let ataque;
+
+    // Definindo o tipo de ataque com base no tipo do herói
+    switch (this.tipo.toLowerCase()) {
+      case 'mago':
+        ataque = 'magia';
+        break;
+      case 'guerreiro':
+        ataque = 'espada';
+        break;
+      case 'monge':
+        ataque = 'artes marciais';
+        break;
+      case 'ninja':
+        ataque = 'shuriken';
+        break;
+      default:
+        ataque = 'ataque desconhecido';
+    }
+
+    // Exibindo a mensagem de ataque
+    print(`O ${this.tipo} ${this.nome} atacou usando ${ataque}`);
+  }
+}
+
+// Criando uma instância do herói com as características especificadas
+const heroiMarcos = new Heroi('Marcos', 30, 'guerreiro');
+
+// Chamando o método atacar para o herói Marcos
+heroiMarcos.atacar(); // O guerreiro Marcos atacou usando espada
